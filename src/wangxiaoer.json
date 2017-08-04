@@ -1,0 +1,9 @@
+{
+"name":"王小二",
+"age":25.5,
+"birthday":"1996-02-05",
+"school":"北京大学",
+"major":["理发","挖掘机"],
+"has_girlfriend":false,
+"car":null
+}

@@ -1,0 +1,24 @@
+JSON：是一种与开发语言无关的、轻量级数据格式，全程：JavaScript Object Notation
+    优点：
+    1.易于阅读和编写
+    2.易于程序解析与生产
+    标准的JSON数据表示
+    数据结构：
+    1.object：使用"{}"包含的键值对结构，key必须是String类型，value为任何基本数据类型或数据结构
+    2.array：使用"[]"来表示，使用","来分割元素
+    基本类型：
+    1.String
+    2.int
+    3.boolean
+    4.null
+示例：使用json表示王小二自我介绍
+
+{
+"name":"王小二",
+"age":25,
+"birthday":"1996-02-05",
+"school":"北京大学",
+"major":["理发","挖掘机"],
+"has_girlfriend":false,
+"car":null
+}
