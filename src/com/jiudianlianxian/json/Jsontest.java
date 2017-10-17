@@ -36,7 +36,7 @@ public class Jsontest {
 			
 			String json = "{'code':'0000'}";
 			JSONObject jsonObj = new JSONObject(json);
-//			String name = jsonObj.getString("code");
+			String name = jsonObj.getString("code");
 			 
 			System.out.println(jsonObj);
 			 
@@ -57,7 +57,12 @@ public class Jsontest {
 			ingredients.put("pastry", "2.4kg");
 			ingredients.put("bestEaten", "outdoors");
 			jsonObj.put("ingredients", ingredients);
+			
 			System.out.println(jsonObj);
+			
+			
+			JSONObject jsonobject = new JSONObject();
+			jsonobject.put("zhangsan", true);
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

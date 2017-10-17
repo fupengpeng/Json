@@ -12,8 +12,8 @@ public class JsonObjectSample {
 
 	public static void main(String[] args) {
 //		JsonObject();
-//		createJsonObject();
-		createJsonByBean();
+		createJsonObject();
+//		createJsonByBean();
 
 	}
 
